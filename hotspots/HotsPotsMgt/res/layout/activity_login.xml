@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/nbg"
+     >
+     <ImageView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/flogo"
+        
+         />
+   
+   <EditText 
+        android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="30dp"
+       android:hint="user Name"
+       android:id="@+id/et1"
+       />
+  <EditText 
+        android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+         android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="password"
+        android:id="@+id/et2"
+       
+       />
+   <Button 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Login"
+        android:textColor="@android:color/white"
+       android:textSize="20dp"
+       android:textStyle="bold"
+         android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnLogin"
+       />
+     <TextView 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="New User Register here......."
+        android:textColor="@android:color/white"
+          android:layout_marginTop="30dp"
+          android:id="@+id/txtReg"
+         />
+</LinearLayout>

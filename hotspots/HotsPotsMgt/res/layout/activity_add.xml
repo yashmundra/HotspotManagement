@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+     >
+
+      <ImageView
+	              android:id="@+id/imageView1"
+	              android:layout_width="50dp"
+	              android:layout_height="50dp"
+	              android:src="@drawable/close" 
+	              android:onClick="clapp"
+	              />
+     
+       
+	    <ViewFlipper 
+	        android:id="@+id/flipper1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:flipInterval="3000"
+	        android:inAnimation="@android:anim/slide_in_left"
+	        android:outAnimation="@android:anim/slide_out_right"
+	        android:layout_centerInParent="true"
+	        
+	        >
+	        
+	        
+	        <ImageView 
+	            android:src="@drawable/one"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:contentDescription="@string/str_img1"
+	            android:layout_gravity="center_horizontal"
+	            />
+	        
+	        <ImageView 
+	            android:src="@drawable/two"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:contentDescription="@string/str_img2"
+	            android:layout_gravity="center_horizontal"
+	            />
+	        
+	        <ImageView 
+	            android:src="@drawable/three"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:contentDescription="@string/str_img3"
+	            android:layout_gravity="center_horizontal"
+	            />
+	        
+	        <ImageView 
+	            android:src="@drawable/five"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:contentDescription="@string/str_img4"
+	            android:layout_gravity="center_horizontal"
+	            />
+	        
+	        <ImageView 
+	            android:src="@drawable/four"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:contentDescription="@string/str_img5"
+	            android:layout_gravity="center_horizontal"
+	            />
+	          <ImageView 
+	            android:src="@drawable/six"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:contentDescription="@string/str_img5"
+	            android:layout_gravity="center_horizontal"
+	            />
+
+	        
+
+	    </ViewFlipper>	    
+   
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/historybtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Show history" 
+            android:onClick="showH"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Check Data Limit" 
+            android:layout_marginTop="20dp"
+            android:onClick="dataL"
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="User"
+             android:layout_marginTop="20dp"
+             />
+
+    </LinearLayout>
+</RelativeLayout>
